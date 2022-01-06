@@ -60,6 +60,13 @@ ___
 
 如:
 ![2022-01-05-kBQg6T](https://gitee.com/JackLight/oss/raw/master/images/2022-01-05-kBQg6T.jpg)
+
+### 图片链接
+向图片添加链接，可以使用方括号将图片信息括住，在 () 中填写链接地址。  
+如:
+
+[![06-BaWgdp](https://gitee.com/JackLight/oss/raw/master/images/2022-01/06-BaWgdp.jpg)](https://gitee.com/JackLight/ "the best project")
+
 ## 六 段落
 想要创建段落， 使用空白行分割一行或多行文字。 
 
@@ -129,10 +136,57 @@ ___
 
 * 第三行
 
-## 代码
+## 九 代码
 将代码或者短语标记为代码，将其括在勾号之间(`)  
 如:
 
 `
 this code is meant to be used
 `
+
+## 十 链接
+创建链接 将链接文本填充至方括号中，url填充至 () 中  
+如:
+
+如果你还有任何其他问题，可以到我的[gitee主页](https://gitee.com/JackLight/jkpython)提issue.
+
+### 为链接添加标题(title)
+在url后增加空格，新增的内容为title  
+如:
+
+如果你还有任何其他问题，可以到我的[gitee主页](https://gitee.com/JackLight/jkpython "this is best project")提issue.
+
+### 网站和电子邮箱
+要将url或者email快速转化为链接。 使用尖括号括住。  
+如:
+
+<zh224635@163.com>  
+<https://gitee.com>
+
+### 链接格式要求
+为了强调链接， 需要在链接前后增加 *   
+如:
+
+如果你喜欢这篇文章可以为这个 **[project](https://gitee.com/JackLight/JKPython "the best project")** 点赞。
+
+### 参考样式链接
+ 
+格式为:   
+[] []  
+第一个方括号内容为链接的文本内容  
+第二个方括号内容为一个标签。 方便被文档内其他部分引用。(通常于文章结尾引用)  
+如:
+参考 [明朝那些事][1] 可知，明朝有许多的名将。
+
+## 转义字符
+要显示原义字符，否则将用于设置Markdown文档中的文本格式\，请在字符前面添加反斜杠（）。  
+如:
+
+\* 如果没有\，这行文字在markdown中表示无序列表。
+
+
+
+[1]: https://dushu.baidu.com/pc/detail?gid=4305468904
+
+
+
